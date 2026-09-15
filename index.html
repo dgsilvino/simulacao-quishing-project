@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alerta de Segurança Digital</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background-color: #f1f5f9;
+      color: #1e293b;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 20px;
+    }
+    .card {
+      background: #ffffff;
+      max-width: 480px;
+      width: 100%;
+      border-radius: 12px;
+      padding: 28px 24px;
+      box-shadow: 0 10px 25px -5px rgba(0,0,0,0.1);
+      border-top: 6px solid #dc2626;
+      text-align: center;
+    }
+    .badge {
+      display: inline-block;
+      background-color: #fee2e2;
+      color: #991b1b;
+      font-weight: 700;
+      font-size: 0.85rem;
+      padding: 6px 12px;
+      border-radius: 9999px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 16px;
+    }
+    h1 {
+      font-size: 1.5rem;
+      color: #0f172a;
+      margin-bottom: 12px;
+    }
+    p {
+      font-size: 0.95rem;
+      line-height: 1.5;
+      color: #475569;
+      margin-bottom: 16px;
+    }
+    .alert-box {
+      background-color: #f8fafc;
+      border-left: 4px solid #0284c7;
+      padding: 12px 16px;
+      text-align: left;
+      font-size: 0.9rem;
+      margin: 20px 0;
+      border-radius: 0 6px 6px 0;
+    }
+    .alert-box ul {
+      margin-left: 18px;
+      margin-top: 6px;
+    }
+    .alert-box li { margin-bottom: 4px; }
+    .footer-note {
+      font-size: 0.8rem;
+      color: #94a3b8;
+      border-top: 1px solid #e2e8f0;
+      padding-top: 14px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="badge">Simulação Educativa</div>
+    <h1>⚠️ Calma! Seus dados estão seguros.</h1>
+    <p>Você acabou de participar de um <strong>teste prático de conscientização digital</strong>.</p>
+    
+    <div class="alert-box">
+      <strong>O que é isso?</strong>
+      <p style="margin-bottom: 8px;">Este teste demonstra a técnica chamada <strong>Quishing</strong> (golpe via QR Code falso ou sobreposto).</p>
+      <strong>Se este fosse um criminoso real, ele poderia ter:</strong>
+      <ul>
+        <li>Aberto uma página falsa do seu banco ou WhatsApp.</li>
+        <li>Instalado um aplicativo malicioso no seu telefone.</li>
+        <li>Redirecionado você para uma chave Pix clonada.</li>
+      </ul>
+    </div>
+
+    <p><strong>A regra de ouro:</strong> Nunca escaneie QR Codes desconhecidos ou colados por cima de outros sem checar a barra de endereços do navegador!</p>
+
+    <div class="footer-note">
+      Projeto de Extensão Universitária • Segurança da Informação Comunitária<br>
+      Acadêmico: Diego Gimenez Silvino
+    </div>
+  </div>
+</body>
+</html>

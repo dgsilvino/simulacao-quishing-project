@@ -1,33 +1,55 @@
-# Simulação Educativa de Quishing (QR Code Phishing)
+# 🛡️ Simulação Educativa de Quishing
 
-Projeto prático de conscientização e intervenção em Segurança da Informação desenvolvido para atividades de Extensão Universitária.
+Projeto prático de conscientização em **Segurança da Informação**, desenvolvido para uma atividade de **Extensão Universitária** da disciplina **Sistemas de Informação e Sociedade**.
 
-A aplicação consiste em uma landing page responsiva que atua como vetor educativo de demonstração controlada de vulnerabilidade (*Quishing*), alertando usuários sobre os riscos de escanear QR Codes desconhecidos ou adulterados em ambientes públicos e comerciais.
+A aplicação apresenta uma simulação controlada de **Quishing (QR Code Phishing)** e, após o experimento, disponibiliza dicas práticas de segurança digital.
 
----
+## 🌐 Acesso
 
-## 🎯 Objetivo do Projeto
+**GitHub Pages:**  
+https://dgsilvino.github.io/simulacao-quishing-project/
 
-- **Demonstração Prática:** Proporcionar uma experiência controlada onde o usuário escaneia um QR Code e é recepcionado por um alerta preventivo, compreendendo na prática como ataques de engenharia social operam.
-- **Letramento Digital:** Ensinar a checar a barra de endereços do navegador (URLs) e a verificar a autenticidade física de códigos impressos.
-- **Impacto Comunitário:** Fornecer suporte educativo a voluntários de eventos locais, comerciantes e membros da comunidade contra fraudes digitais e falsos comprovantes de Pix.
+## 🎯 Objetivo
 
----
+- Demonstrar, de forma controlada, os riscos associados a QR Codes adulterados.
+- Ensinar a verificar URLs e reconhecer sinais de engenharia social.
+- Orientar sobre cuidados com QR Codes, mensagens suspeitas e comprovantes de Pix.
+- Disponibilizar conteúdo educativo para prevenção de golpes digitais.
 
-## 🛠️ Tecnologias Utilizadas
+## 🚀 Como funciona
 
-- **HTML5:** Estruturação semântica da página de alerta.
-- **CSS3:** Estilização moderna, responsiva e com foco em clareza visual e acessibilidade mobile.
-- **GitHub Pages:** Hospedagem estática contínua para entrega rápida via leitura de QR Code.
+1. O participante escaneia o QR Code apresentado durante a atividade.
+2. É direcionado para a página de **simulação educativa de Quishing**.
+3. A página explica o experimento e apresenta os riscos envolvidos.
+4. O participante pode acessar uma segunda página com **dicas práticas de segurança digital**.
+5. Como material complementar, é disponibilizado o **Guia Prático de Segurança Digital**.
 
----
+## 🛠️ Tecnologias
 
-## 🚀 Como Funciona a Intervenção
+- **HTML5**
+- **CSS3**
+- **Git / GitHub**
+- **GitHub Pages**
+- **QR Code**
 
-1. **Apresentação do QR Code:** O código físico ou digital é apresentado ao participante no contexto do evento/oficina comunitária.
-2. **Acesso à Página:** Ao apontar a câmera, o participante é direcionado para a página de teste hospedada neste repositório.
-3. **Explicação e Mediação:** O participante visualiza a mensagem de alerta orientando que nenhum dado foi capturado, introduzindo a discussão técnica sobre os riscos reais de páginas falsas e roubo de credenciais.
-4. **Entrega de Boas Práticas:** Os conceitos são complementados pela entrega do *Guia Prático de Segurança Digital*.
+## 🔐 Segurança
+
+A aplicação possui finalidade exclusivamente educativa e não solicita ou armazena:
+
+- senhas;
+- credenciais;
+- dados bancários;
+- informações pessoais;
+- pagamentos.
+
+## 📂 Estrutura
+
+```text
+simulacao-quishing-project/
+├── index.html
+├── dicas.html
+├── Guia_Pratico_Seguranca_Digital.pdf
+└── README.md
 
 ---
 
